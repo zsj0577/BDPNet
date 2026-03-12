@@ -28,7 +28,7 @@ Set `Net_mode = 1` for training mode, or `Net_mode = 0` for test mode.
 # Datasets
 The following datasets are used in this work:
 <ol>
-  <li><a href="https://scholar.cu.edu.eg/?q=afahmy/pages/dataset/">BUSI</a></li>
+  <li><a href="https://scholar.cu.edu.eg/?q=afahmy/pages/dataset/">BUSI Link1</a> <a href="https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/">BUSI Link2</a> </li>
   <li><a href="https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation/">Brain MRI</a></li>
   <li><a href="https://datasets.simula.no/kvasir-seg/">KvasirSEG</a></li>
 </ol>
