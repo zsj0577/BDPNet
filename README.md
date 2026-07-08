@@ -1,5 +1,5 @@
 # BDPNet
-This is the official repository for **"Bidirectional Dual-Path CNN with Multi-Scale Feature Fusion for Enhanced Medical Image Segmentation"**.
+This is the official repository for **"BDPNet: Bidirectional High-Resolution and U-Shaped Feature Interaction for Medical Image Segmentation"**.
 
 # Architecture
 <p align="center">
@@ -21,11 +21,16 @@ The dataset is organized as follows:
   - `dataset_name/`: Name of the dataset used, e.g., BUSI, Brain MRI, and KvasirSEG
     - .......
 
+The detailed training/testing splits for each dataset are provided in the corresponding `.txt` files.
+
 # Train and Test
 Please use `Trainer.py` for model training and evaluation.  
 Set `Net_mode = 1` for training mode, or `Net_mode = 0` for test mode.
 
-# Datasets
+# Model Weights
+The pretrained weights for each dataset (BUSI, Brain, and KvasirSEG) are provided and can be directly loaded for inference and testing.
+
+# Datasets Links
 The following datasets are used in this work:
 <ol>
   <li><a href="https://scholar.cu.edu.eg/?q=afahmy/pages/dataset/">BUSI Link1</a> <a href="https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/">BUSI Link2</a> </li>
