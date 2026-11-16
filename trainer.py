@@ -56,7 +56,7 @@ class Trainer(object):
         self.batch_size = {"train": 4, "val": 4}
         self.lr = 1e-4
         self.modes = ["train", "val"]
-        self.num_epochs = 3
+        self.num_epochs = 100
         self.criterion = DiceBCELoss()
 
         self.best_loss = float("inf")
